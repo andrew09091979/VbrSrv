@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 
     IDevice * dev = devFactory.CreateDev("Regigraf");
     dev->GetName();
-
     Config cnfg("ServConfig.xml");
     QPluginLoader protocolPlugin("C:\\Projects\\QT\\plugins\\myPlugin.dll");
     protocolPlugin.load();

@@ -18,5 +18,4 @@ HEADERS  += mainwindow.h \
     config.h \
     DeviceFactory.h \
     IDevice.h
-
 FORMS    += mainwindow.ui

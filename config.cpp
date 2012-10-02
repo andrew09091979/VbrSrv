@@ -1,5 +1,5 @@
 #include "config.h"
-
+//Config class
 Config::Config()
 {
 }
